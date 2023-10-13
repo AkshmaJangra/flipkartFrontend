@@ -1,0 +1,59 @@
+#navbar{
+	background-color: white;
+	color: black;
+	height: 70px;
+   position: fixed;
+   margin-bottom: 2rem;
+   top: 0;
+   z-index: 2;
+   width: 100%;
+}
+#navbar .listItems{
+	display: flex;
+	list-style: none;
+	
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+#navbar .listItems li{
+	padding: 0.5rem 1rem;
+	
+}
+#navbar .listItems li img{
+    width:1.2rem;
+	margin: 0 0.7rem;
+}
+#navbar .listItems li a{
+	text-decoration: none;
+	color: black;
+}
+#navbar .form-control{
+	width: 450px;
+	background: #daebe9b0;
+	color: rgb(207, 199, 199);
+	font-size: 15px;
+	font-weight: 600;
+	border: none;
+}
+#navbar .card{
+	display: none;
+    width: 16rem;
+	position: absolute;
+	top: 3rem;
+    left: 58rem;
+	border-radius: 1px;
+	border: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#navbar .card p{
+	font-size: 1.2rem;
+	border-bottom: 0.5px solid black;
+}
+#navbar .card ul{
+	list-style: none;
+	position: relative;
+	
+}
+#navbar .card ul li{
+	padding: 0.5rem;
+}

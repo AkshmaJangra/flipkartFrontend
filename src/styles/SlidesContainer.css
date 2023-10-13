@@ -1,0 +1,7 @@
+.container-fluid{
+	position: relative;
+	top: 4.5rem;
+}
+.carousel-inner img{
+	width: 100%;
+}
